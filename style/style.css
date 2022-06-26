@@ -1,0 +1,60 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+
+html {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+.container {
+    width: 1122px;
+    padding-top: 125px;
+    margin: auto;
+}
+
+.P2 {
+    margin-top: -75px;
+}
+
+body {
+    background-color: #F9698D;
+}
+
+/* tombol */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Ucapan */
+
+p {
+    font-size: 30px;
+}
+
+.gift {
+   float: right;
+   margin-top: -780px;
+   color: #F9698D;
+}
+
+.gift:hover {
+    transition: 1.5s ease;
+    color: white;
+}
+
+.gift::after {
+    transform: 1.5s ease;
+}
+
+/* Page 2 */
+
+.foto {
+    text-align: center;
+}
+
+img {
+    width: 225px;
+    height: auto;
+}
